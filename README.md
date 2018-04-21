@@ -2,7 +2,7 @@
 
 With this build tool, you can develop Framer Generator exported prototypes with modular JavaScript, the latest ES6-Features like named imports/exports, npm packages and a development server with hot reloading capabilities.
 
-# How to start
+## How to start
 
 1.  Clone this repo `$ git clone https://github.com/switchnollie/FramerBuildTool.git`
 2.  Run `$ npm install` inside the directory
