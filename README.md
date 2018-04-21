@@ -15,15 +15,15 @@ With this build tool, you can develop Framer Generator exported prototypes with 
 
 ## How to use it with Framer
 
-The `Framer` Object, and all of the API (the `Animation` object, the `Layer` object etc.) are expsed globally. Please refer to the [Framer API Documentation](https://framer.com/docs/). Your imported layers and groups are saved under the `myLayers` object variable in `app.js`.
+The `Framer` Object, and all of the API (the `Animation` object, the `Layer` object etc.) are expsed globally. Please refer to the [Framer API Documentation](https://framer.com/docs/). Your imported layers and groups are saved under the global `myLayers` object variable.
 
 1.  Choose your deviceType from [here](https://framer.com/docs/#device.deviceType)
-2.  Copy it to `src/app.js`
+2.  Copy it to `src/device.js`
 
 e.g.
 
 ```js
-device.deviceType = "apple-iphone-8-silver";
+device.deviceType = "apple-iphone-7-silver";
 ```
 
 3.  Access your layers and groups as properties on the `myLayers` object variable and give them state, animations, touchHandlers etc.
